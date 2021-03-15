@@ -1,0 +1,55 @@
+.signIn{
+    height:100vh;
+}
+.avatar{
+    width:140px;
+}
+.input-field{
+    height:55px;
+    background-color:#f0f0f0;
+    border-radius: 55px;
+    display:grid;
+    grid-template-columns: 15% 85%; 
+}
+input{
+    background:none;
+    outline:none;
+    border:none;
+    line-height: 1;
+    font-weight: 600;
+    font-size:1.1rem;
+    color:#333;
+}
+.icons{
+
+    color:#acacac;
+    font-size: 1.1rem;
+    line-height: 55px;
+    margin: auto;
+    text-align: center;
+}
+.submit-button{
+    padding:12px 40px;
+    border-radius: 55px;
+    border:none;
+    outline:none;
+    color: #fff;
+    background-color: #F50057;
+}
+.submit-button:hover{
+    background-color: #F50080;
+    transition: all 0.3s ease-in-out;
+}
+.social-icon{
+    font-size: 2rem;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    color:#F50057;
+    cursor: pointer;
+}
+.authentic-field{
+    height:100vh;
+    display: flex;
+    align-items: center;
+}
